@@ -1,6 +1,9 @@
+rov {
+    --
+}
 body {
   background-color: #ffffff color;
-  color
+  color:#757575
 }
 .nav-link:hover {
   color: rgba(33, 150, 243, 1);
@@ -9,13 +12,12 @@ body {
   color: rgba(33, 150, 243, 1);
 }
 .hero {
-    background-color: rgba(47, 48, 58, 1);
-;
+  background-color: rgba(47, 48, 58, 1);
 }
-.title-hero{
-    color:white
+.title-hero {
+  color: white;
 }
 .button-hero {
-    color:#2196F3;
-    background-color: white;
+  color: #2196f3;
+  background-color: white;
 }

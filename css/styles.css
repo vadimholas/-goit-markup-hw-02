@@ -1,23 +1,45 @@
-rov {
-    --
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-fon-color: #e5e5e5;
 }
 body {
-  background-color: #ffffff color;
-  color:#757575
+  background-color: var(--primary-fon-color);
+  color: var(--primary-text-color);
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.87em;
 }
-.nav-link:hover {
-  color: rgba(33, 150, 243, 1);
+.header-logo {
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
 }
-.list-link:hover {
-  color: rgba(33, 150, 243, 1);
+.accent {
+  color: var(--accent-text-color);
 }
-.hero {
-  background-color: rgba(47, 48, 58, 1);
+.nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
 }
-.title-hero {
-  color: white;
-}
-.button-hero {
+.nav-link:hover,
+:focus {
   color: #2196f3;
-  background-color: white;
+}
+.link-items {
+  color: rgba(117, 117, 117, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+}
+.link-items:hover,
+:focus {
+  color: #2196f3;
 }

@@ -97,7 +97,11 @@ body {
   line-height: 1.15;
   text-decoration: none;
 }
-
+.header-logo {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 40px;
+}
 .accent-footer {
   color: var(--primary-fon-color);
 }

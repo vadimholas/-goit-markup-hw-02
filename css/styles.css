@@ -31,6 +31,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.15;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .accent {
@@ -40,8 +41,12 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
+}
+.current{
+  color: var(--accent-text-color);
 }
 .link-header:hover,
 :focus {
@@ -51,7 +56,8 @@ body {
   color: rgba(117, 117, 117, 1);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .link-contact:hover,
@@ -66,27 +72,24 @@ body {
   list-style: none;
 }
 /*------------main-------------*/
-.button {
-  background-color: var(--primary-fon-color);
+.btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.button {
-  font-size: 16px;
-  line-height: 26px;
-  line-height: 1.6;
-  box-align: center;
-  vertical-align: Top;
-  letter-spacing: 3%;
+.btn:hover,
+:focus {
+  color: var(--accent-text-color);
 }
 
 .title-foto {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 2em;
+  line-height: 2;
 }
 /*---------------------FOOTER----------------------*/
 .accent-text {
@@ -119,7 +122,8 @@ body {
   font-style: normal;
 }
 .footer {
-  background-color: #2f303a;
+  background-color: rgba(47, 48, 58, 1);
+;
 }
 
 /*------------------HERO----------------*/
@@ -138,6 +142,12 @@ body {
 .title-btn {
   background-color: var(--accent-text-color);
   color: #ffffff;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /*---------------INFO----------------*/
 .title-info {
